@@ -1,0 +1,29 @@
+.cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px; 
+            padding: 20px;
+        }
+
+.card {
+            flex-basis: 250px;
+            flex-grow: 1;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+            font-family: 'Arial', sans-serif;
+            object-fit: cover;
+        }
+
+.card h2 {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 10px;
+            margin-ridht:10px;
+        }
